@@ -83,7 +83,7 @@ final class _
 }
 
 // We can't use "_" as a function name, since it collides with the "_" function in the gettext extension
-function __($value): _
+function ___($value): _
 {
     return new _($value);
 }
